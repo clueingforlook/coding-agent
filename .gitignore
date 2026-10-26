@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+dist/
+*.egg-info/
+.uv-cache/
+sandbox/
+.task_outputs/
+.transcripts/
+.memory/
+.tasks/
+.scheduled_tasks.json
+.scheduled_tasks.json.*.tmp
+.mailboxes/
+.worktrees/
+
+# 本地测试、学习文档与协作约定
+/tests/
+/docs/
+/AGENTS.md
+/讨论.md
+*.log
